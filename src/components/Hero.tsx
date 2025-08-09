@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 font-display">
-            Hi, I'm <span className="text-accent">Alex Smith</span>
+            Hi, I'm <span className="text-accent">Harendra Kumar</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
             Full-Stack Developer & UI/UX Designer crafting digital experiences that make a difference

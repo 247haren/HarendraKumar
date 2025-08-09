@@ -40,7 +40,7 @@ const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-bold text-primary hover:text-accent transition-colors duration-300"
           >
-            Alex Smith
+            Harendra Kumar
           </button>
 
           {/* Desktop Navigation */}

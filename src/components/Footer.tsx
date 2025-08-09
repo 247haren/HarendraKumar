@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 font-display">Alex Smith</h3>
+            <h3 className="text-2xl font-bold mb-4 font-display">Harendra Kumar</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Full-Stack Developer & UI/UX Designer passionate about creating 
               exceptional digital experiences.
@@ -90,7 +90,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/60 flex items-center justify-center space-x-1">
-            <span>© 2024 Alex Smith. Made with</span>
+            <span>© 2024 Harendra Kumar. Made with</span>
             <Heart className="w-4 h-4 text-accent" />
             <span>and lots of coffee.</span>
           </p>
