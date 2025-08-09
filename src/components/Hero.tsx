@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Mail, Github, Linkedin } from "lucide-react";
-import heroBg from "@/assets/harendra-hero.jpg";
+import heroBg from "@/assets/harendra-hero-enhanced.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -11,9 +11,13 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Gradient Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
+      <img
+        src={heroBg}
+        alt="Professional headshot of Harendra Kumar, Full-Stack Developer and UI/UX Designer"
+        className="absolute inset-0 w-full h-full object-cover object-center transform scale-110"
+        loading="eager"
+        decoding="async"
+        fetchPriority="high"
       />
       <div className="absolute inset-0 bg-gradient-hero" />
       
